@@ -241,7 +241,8 @@
 			<groupId>com.change_vision.astah</groupId>
 			<artifactId>astah-api</artifactId>
 			<version>${astah.depend.version}</version>
-			<scope>provided</scope>
+            <scope>system</scope>
+            <systemPath>${astahPath}/astah-api.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.osgi</groupId>
