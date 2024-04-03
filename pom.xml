@@ -158,9 +158,6 @@
 						<goals>
 							<goal>bundle</goal>
 						</goals>
-						<configuration>
-							<unpackBundle>true</unpackBundle>
-						</configuration>
 					</execution>
 				</executions>
 				<!-- | the following instructions build a simple set of public/private 
